@@ -1,0 +1,30 @@
+# multi_calenar_srv config file
+
+# order server 
+order_srv_ip=205.209.216.117
+order_srv_port=9539
+
+# position server
+position_srv_ip=192.168.40.10
+position_srv_port=10010
+
+# listen port
+listen_port=10011
+
+#instrument list's file
+instrument_list_file=./instrument_desc
+
+# monitor fill limit
+fill_limit=1000
+
+# account
+account_1=16093
+account_2=16094
+account_3=16096
+account_4=16097
+account_5=16098
+account_6=16109
+account_7=16111
+account_8=16115
+account_9=16237
+account_10=16287
