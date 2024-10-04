@@ -1,0 +1,49 @@
+#ifndef _ORDER_PROTOCOL_H_
+#define _ORDER_PROTOCOL_H_
+
+// scope: 8001 - 9000
+
+// ---- message type ----
+#define ord_msg_login              8001
+#define ord_msg_logout             8002
+#define ord_msg_new_order          8003
+#define ord_msg_alter_order        8004
+#define ord_msg_cancel_order       8005
+#define ord_msg_confirm_new        8006
+#define ord_msg_confirm_alter      8007
+#define ord_msg_confirm_cancel     8008
+#define ord_msg_order_reject       8009
+#define ord_msg_session_reject     8010 
+#define ord_msg_business_reject    8011
+#define ord_msg_fill_spread        8012
+#define ord_msg_fill_leg           8013
+#define ord_msg_product_name       8014
+#define ord_msg_identify           8015
+#define ord_msg_fill_limit         8016
+#define ord_msg_quote              8017
+#define ord_msg_stop_trade         8018
+#define ord_msg_error              8019
+
+// ---- field ----
+#define ord_fid_account            8001 
+#define ord_fid_tag50              8002
+#define ord_fid_global_order_num   8003 
+#define ord_fid_local_order_num    8004
+#define ord_fid_symbol             8005
+#define ord_fid_side               8006
+#define ord_fid_size               8007
+#define ord_fid_price              8008
+#define ord_fid_max_show           8009
+#define ord_fid_product_name       8010
+#define ord_fid_quote_num          8011
+#define ord_fid_fill_limit         8012
+#define ord_fid_fill               8013
+
+// ---- error code ----
+#define er_fail_login              8001 
+#define er_fail_logout             8002 
+#define er_fail_send_new           8003 
+#define er_fail_send_alter         8004 
+#define er_fail_send_cancel        8005
+
+#endif
